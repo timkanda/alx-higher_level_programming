@@ -6,4 +6,4 @@ def no_c(my_string):
         if idx == 'c' or idx == 'C':
             new_string[index_count] = ""
             index_count += 1
-            return "".join(new_string)
+            return new_string
