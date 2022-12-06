@@ -10,7 +10,7 @@
 */
 int is_palindrome(listint_t **head)
 {
-	unsigned int length = 1;
+	unsigned int len = 1;
 	listint_t *tmp;
 
 	if (head == NULL || *head == NULL)
@@ -19,7 +19,7 @@ int is_palindrome(listint_t **head)
 	while (tmp)
 	{
 		tmp = tmp->next;
-		length++;
+		len++;
 	}
 	return (0);
 }
