@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 if __main__ == "__main__":
     import sys
     import hidden_4
