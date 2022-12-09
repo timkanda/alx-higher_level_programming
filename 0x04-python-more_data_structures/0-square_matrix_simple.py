@@ -2,5 +2,4 @@
 def square_matrix_simple(matrix=[]):
     if not matrix:
         print()
-    new_matrix = list(map(lambda n: n ** 2, matrix[]))
-    return new_matrix
+    return [[n ** 2 for n in row] for row in matrix]
